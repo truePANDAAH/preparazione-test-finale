@@ -1,0 +1,11 @@
+<section>
+    <div class="box-form">
+        <button class="btn-1" >Tabella <br> Ricerche</button>
+        <div class="list" *ngFor="let name of names">
+           <h1> {{ name.name }} </h1>
+            <p> {{ name.count }} </p>
+            <p>  {{ name.probability }} </p>
+            <p>  {{ name.gender }}</p>
+        </div>
+    </div>
+</section>
